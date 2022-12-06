@@ -4,7 +4,6 @@ $sql = "DELETE FROM `customer`";
 $result = @mysqli_query($cnxn, $sql);
 $sql = "DELETE FROM `sets`";
 $result = @mysqli_query($cnxn, $sql);
- require '/home/greente1/db.php';
 $sql = "INSERT INTO `customer` (`customer_id`, `customer_name`, `email`,`phone`,`delivery`,`date`) VALUES
 (1, 'Susie Q Anderson', 'Susie@gmail.com','2063334444','Delivery','2022-12-9'),
 (2, 'Susie Q Anderson', 'Susie@gmail.com','2063334444','Delivery','2022-12-10'),
